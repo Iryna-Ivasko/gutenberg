@@ -20,6 +20,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/tutorials/block-tutorial/writing-your-first-block-type/
  */
+
 function create_block_boilerplate_block_init() {
 	register_block_type_from_metadata( __DIR__ );
 }
